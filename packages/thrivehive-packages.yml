@@ -1,0 +1,50 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=thrivehive
+notes: >-
+  ThriveHive (defunct; folded into Gannett's LocaliQ) published an @thrivehive npm
+  scope of internal frontend tooling — maintainers carry @thrivehive.com emails and
+  repositories live under github.com/thrivehive. None of these are API client SDKs;
+  the company published no public API. Last registry activity 2022. PyPI has no
+  thrivehive package (404).
+packages:
+- language: javascript
+  registry: npm
+  name: "@thrivehive/segment"
+  url: https://www.npmjs.com/package/@thrivehive/segment
+  install: npm install @thrivehive/segment
+  official: true
+  sdk: false
+  description: Implements segment.io tracking to @thrivehive projects
+  latest: 1.3.1
+  repository: https://github.com/thrivehive/segment
+- language: javascript
+  registry: npm
+  name: "@thrivehive/magnet"
+  url: https://www.npmjs.com/package/@thrivehive/magnet
+  install: npm install @thrivehive/magnet
+  official: true
+  sdk: false
+  description: Shared component library for ThriveHive lead magnets
+  latest: 0.1.23
+- language: javascript
+  registry: npm
+  name: "@thrivehive/eslint-config-node"
+  url: https://www.npmjs.com/package/@thrivehive/eslint-config-node
+  install: npm install @thrivehive/eslint-config-node
+  official: true
+  sdk: false
+- language: javascript
+  registry: npm
+  name: "@thrivehive/eslint-config-vue"
+  url: https://www.npmjs.com/package/@thrivehive/eslint-config-vue
+  install: npm install @thrivehive/eslint-config-vue
+  official: true
+  sdk: false
+- language: javascript
+  registry: npm
+  name: vue-cli-plugin-thrivehive
+  url: https://www.npmjs.com/package/vue-cli-plugin-thrivehive
+  install: npm install vue-cli-plugin-thrivehive
+  official: true
+  sdk: false

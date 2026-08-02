@@ -1,0 +1,22 @@
+# ThriveHive
+
+> ThriveHive was a Boston-based guided marketing platform for small businesses, founded in 2011 (Techstars Boston 2015). Acquired by Propel Marketing (GateHouse Media) in 2016 for $11.8M and folded into Gannett's LocaliQ brand after the 2019 GateHouse-Gannett merger. The company published no public API or developer portal; thrivehive.com now redirects to localiq.com behind an expired TLS certificate.
+
+<!-- generated: 2026-07-21 | method: generated | source: apis.yml + repo artifacts -->
+
+## Company
+
+- [Website (redirects to LocaliQ)](https://thrivehive.com/): Former ThriveHive domain, now 301 to https://localiq.com/
+- [GitHub organization](https://github.com/thrivehive): ThriveHive org, no public repositories
+- [npm scope @thrivehive](https://www.npmjs.com/package/@thrivehive/segment): Internal frontend tooling, not API SDKs
+
+## APIs
+
+- None. ThriveHive published no public API surface.
+
+## Artifacts
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/thrivehive/refs/heads/main/apis.yml): Machine-readable company profile
+- [Domain security](security/thrivehive-domain-security.yml): TLS/DNS posture probe (expired certificate, SPF+DMARC p=none, no DNSSEC/CAA)
+- [Well-known probe](well-known/thrivehive-well-known.yml): All /.well-known/ paths 301 off-domain
+- [Packages](packages/thrivehive-packages.yml): First-party npm scope inventory (internal tooling)

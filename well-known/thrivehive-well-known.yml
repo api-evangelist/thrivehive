@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of https://thrivehive.com/.well-known/*
+host: https://thrivehive.com
+notes: >-
+  thrivehive.com serves an expired TLS certificate and 301-redirects every path
+  (including the site root) to www.thrivehive.com / www.localiq.com, landing on
+  https://localiq.com/ (200). ThriveHive was folded into Gannett's LocaliQ brand;
+  no well-known discovery documents are published on the ThriveHive domain.
+documents:
+- path: /.well-known/security.txt
+  status: 301
+- path: /.well-known/openid-configuration
+  status: 301
+- path: /.well-known/oauth-authorization-server
+  status: 301
+- path: /.well-known/api-catalog
+  status: 301
+- path: /.well-known/ai-plugin.json
+  status: 301
