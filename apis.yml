@@ -30,6 +30,9 @@ description: ThriveHive was a Boston-based guided marketing platform for small b
   published no public API or developer portal; thrivehive.com now serves LocaliQ content behind an
   expired TLS certificate.
 url: https://raw.githubusercontent.com/api-evangelist/thrivehive/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The company published no public API or developer portal; thrivehive.com now serves LocaliQ content behind an expired TLS certificate."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
