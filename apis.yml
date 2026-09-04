@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://thrivehive.com/', status: 301, note: 'declared website redirects to https://localiq.com/ — a different registrable domain (thrivehive.com -> localiq.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thrivehive.png
 name: ThriveHive
 description: ThriveHive was a Boston-based guided marketing platform for small businesses (10 or
